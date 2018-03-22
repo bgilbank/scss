@@ -1,0 +1,2 @@
+module NatoursHelper
+end
