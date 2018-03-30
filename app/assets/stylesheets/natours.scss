@@ -1,3 +1,8 @@
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+$color-grey-dark: #777;
+
 *,
 *::after,
 *::before {
@@ -14,7 +19,7 @@ body {
   font-family: “Lato”, sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: #777;
+  color: $color-grey-dark;
   padding: 3rem;
   box-sizing: border-box;
 }
@@ -23,8 +28,8 @@ body {
  height: 95vh;
  background-image: linear-gradient(
  to right bottom,
- rgba(126, 213, 111, 0.8), 
- rgba(40, 180, 131, 0.8)), 
+ rgba($color-primary-light, 0.8), 
+ rgba($color-primary-dark, 0.8)), 
  url("natours/hero.jpg");
  background-size: cover;
  background-position: top;
